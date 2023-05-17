@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AppsRemesas</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Layout main-->
+    <string name="seleccionar_anio">Seleccione un año</string>
+    <string name="meses">Remesas</string>
+
+    <!--Layout meses-->
+    <string name="year">Año:</string>
+    <string name="total">Total:</string>
+
+    <!--Layout adaptador de fila-->
+    <string name="posicion">Posición</string>
+</resources>
