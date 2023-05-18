@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Axel-Bellorin\\Desktop\\Facultativa 2\\AppsRemesas\\AppsRemesas.csproj": {}
+    "C:\\Users\\axelb\\OneDrive\\Escritorio\\AppsRemesas\\AppsRemesas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Axel-Bellorin\\Desktop\\Facultativa 2\\AppsRemesas\\AppsRemesas.csproj": {
+    "C:\\Users\\axelb\\OneDrive\\Escritorio\\AppsRemesas\\AppsRemesas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Axel-Bellorin\\Desktop\\Facultativa 2\\AppsRemesas\\AppsRemesas.csproj",
+        "projectUniqueName": "C:\\Users\\axelb\\OneDrive\\Escritorio\\AppsRemesas\\AppsRemesas.csproj",
         "projectName": "AppsRemesas",
-        "projectPath": "C:\\Users\\Axel-Bellorin\\Desktop\\Facultativa 2\\AppsRemesas\\AppsRemesas.csproj",
-        "packagesPath": "C:\\Users\\Axel-Bellorin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Axel-Bellorin\\Desktop\\Facultativa 2\\AppsRemesas\\obj\\",
+        "projectPath": "C:\\Users\\axelb\\OneDrive\\Escritorio\\AppsRemesas\\AppsRemesas.csproj",
+        "packagesPath": "C:\\Users\\axelb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\axelb\\OneDrive\\Escritorio\\AppsRemesas\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Axel-Bellorin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\axelb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

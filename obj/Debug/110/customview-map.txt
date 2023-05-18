@@ -21,6 +21,7 @@ item;obj\Debug\110\res\values-en-rus\styles.xml
 LinearLayout;obj\Debug\110\res\layout\activity_main.xml
 LinearLayout;obj\Debug\110\res\layout\fila_adaptador_meses.xml
 LinearLayout;obj\Debug\110\res\layout\meses.xml
+LinearLayout;obj\Debug\110\res\layout\prueba_interfaz.xml
 ListView;obj\Debug\110\res\layout\activity_main.xml
 ListView;obj\Debug\110\res\layout\meses.xml
 paths;C:\Users\Axel-Bellorin\Desktop\Facultativa 2\AppsRemesas\obj\Debug\110\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
