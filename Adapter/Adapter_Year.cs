@@ -15,15 +15,15 @@ namespace AppsRemesas
     {
 
         Activity context;
-        List<year> years;
+        List<Year> year;
 
-        public Adapter_Year(Activity context, List<year> years)
+        public Adapter_Year(Activity context, List<Year> year)
         {
             this.context = context;
-            this.years = years;
+            this.year = year;
         }
 
-        public override int Count => years.Count;
+        public override int Count => year.Count;
 
         public override Java.Lang.Object GetItem(int position)
         {
@@ -37,7 +37,7 @@ namespace AppsRemesas
 
         public override View GetView(int position, View convertView, ViewGroup parent)
         {
-            var item = years[position];
+            var item = year[position];
 
             View view = convertView;
 

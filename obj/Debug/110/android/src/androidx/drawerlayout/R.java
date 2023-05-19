@@ -26,8 +26,8 @@ public final class R {
 	public static final class color {
 		public static final int androidx_core_ripple_material_light = 0x7f05001b;
 		public static final int androidx_core_secondary_text_default_material_light = 0x7f05001c;
-		public static final int notification_action_color_filter = 0x7f050072;
-		public static final int notification_icon_bg_color = 0x7f050073;
+		public static final int notification_action_color_filter = 0x7f050076;
+		public static final int notification_icon_bg_color = 0x7f050077;
 	}
 	public static final class dimen {
 		public static final int compat_button_inset_horizontal_material = 0x7f060053;
@@ -142,12 +142,12 @@ public final class R {
 	}
 	public static final class layout {
 		public static final int custom_dialog = 0x7f0b001f;
-		public static final int notification_action = 0x7f0b0032;
-		public static final int notification_action_tombstone = 0x7f0b0033;
-		public static final int notification_template_custom_big = 0x7f0b0034;
-		public static final int notification_template_icon_group = 0x7f0b0035;
-		public static final int notification_template_part_chronometer = 0x7f0b0036;
-		public static final int notification_template_part_time = 0x7f0b0037;
+		public static final int notification_action = 0x7f0b0033;
+		public static final int notification_action_tombstone = 0x7f0b0034;
+		public static final int notification_template_custom_big = 0x7f0b0035;
+		public static final int notification_template_icon_group = 0x7f0b0036;
+		public static final int notification_template_part_chronometer = 0x7f0b0037;
+		public static final int notification_template_part_time = 0x7f0b0038;
 	}
 	public static final class string {
 		public static final int status_bar_notification_info_overflow = 0x7f0d0032;

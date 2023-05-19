@@ -2,25 +2,26 @@ adaptive-icon;obj\Release\110\res\mipmap-anydpi-v26\ic_launcher.xml
 adaptive-icon;obj\Release\110\res\mipmap-anydpi-v26\ic_launcher_round.xml
 background;obj\Release\110\res\mipmap-anydpi-v26\ic_launcher.xml
 background;obj\Release\110\res\mipmap-anydpi-v26\ic_launcher_round.xml
-cache-path;C:\Users\Axel-Bellorin\Desktop\Facultativa 2\AppsRemesas\obj\Release\110\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+cache-path;C:\Users\axelb\OneDrive\Escritorio\AppsRemesas\obj\Release\110\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 color;obj\Release\110\res\values\colors.xml
 color;obj\Release\110\res\values\ic_launcher_background.xml
 color;obj\Release\110\res\values-en-rus\colors.xml
 color;obj\Release\110\res\values-en-rus\ic_launcher_background.xml
-external-cache-path;C:\Users\Axel-Bellorin\Desktop\Facultativa 2\AppsRemesas\obj\Release\110\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
-external-path;C:\Users\Axel-Bellorin\Desktop\Facultativa 2\AppsRemesas\obj\Release\110\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-cache-path;C:\Users\axelb\OneDrive\Escritorio\AppsRemesas\obj\Release\110\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;C:\Users\axelb\OneDrive\Escritorio\AppsRemesas\obj\Release\110\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 foreground;obj\Release\110\res\mipmap-anydpi-v26\ic_launcher.xml
 foreground;obj\Release\110\res\mipmap-anydpi-v26\ic_launcher_round.xml
 GridLayout;obj\Release\110\res\layout\meses.xml
 item;obj\Release\110\res\values\styles.xml
 item;obj\Release\110\res\values-en-rus\styles.xml
 LinearLayout;obj\Release\110\res\layout\activity_main.xml
-LinearLayout;obj\Release\110\res\layout\fila_adaptador_meses.xml
+LinearLayout;obj\Release\110\res\layout\fila_meses.xml
+LinearLayout;obj\Release\110\res\layout\fila_year.xml
 LinearLayout;obj\Release\110\res\layout\meses.xml
 ListView;obj\Release\110\res\layout\activity_main.xml
 ListView;obj\Release\110\res\layout\meses.xml
-paths;C:\Users\Axel-Bellorin\Desktop\Facultativa 2\AppsRemesas\obj\Release\110\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
-RelativeLayout;obj\Release\110\res\layout\fila_adaptador_meses.xml
+paths;C:\Users\axelb\OneDrive\Escritorio\AppsRemesas\obj\Release\110\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+RelativeLayout;obj\Release\110\res\layout\fila_meses.xml
 resources;obj\Release\110\res\values\colors.xml
 resources;obj\Release\110\res\values\ic_launcher_background.xml
 resources;obj\Release\110\res\values\strings.xml
@@ -34,5 +35,5 @@ string;obj\Release\110\res\values-en-rus\strings.xml
 style;obj\Release\110\res\values\styles.xml
 style;obj\Release\110\res\values-en-rus\styles.xml
 TextView;obj\Release\110\res\layout\activity_main.xml
-TextView;obj\Release\110\res\layout\fila_adaptador_meses.xml
+TextView;obj\Release\110\res\layout\fila_meses.xml
 TextView;obj\Release\110\res\layout\meses.xml

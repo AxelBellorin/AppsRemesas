@@ -13,26 +13,26 @@ namespace AppsRemesas
 {
     class Global
     {
-        public static List<year> year = new List<year>
+        public static List<Year> year = new List<Year>
         {
-            new year(1, 2000),
-            new year(2, 2001),
-            new year(3, 2002),
-            new year(4, 2003),
-            new year(5, 2004),
-            new year(6, 2005),
-            new year(7, 2006),
-            new year(8, 2007),
-            new year(9, 2008),
-            new year(10, 2009),
-            new year(11, 2010),
-            new year(12, 2011),
-            new year(13, 2012),
-            new year(14, 2013),
-            new year(15, 2014),
-            new year(16, 2015),
-            new year(17, 2016),
-            new year(18, 2017)
+            new Year(1, 2000),
+            new Year(2, 2001),
+            new Year(3, 2002),
+            new Year(4, 2003),
+            new Year(5, 2004),
+            new Year(6, 2005),
+            new Year(7, 2006),
+            new Year(8, 2007),
+            new Year(9, 2008),
+            new Year(10, 2009),
+            new Year(11, 2010),
+            new Year(12, 2011),
+            new Year(13, 2012),
+            new Year(14, 2013),
+            new Year(15, 2014),
+            new Year(16, 2015),
+            new Year(17, 2016),
+            new Year(18, 2017)
         };
 
         public static List<Meses> mes = new List<Meses>
@@ -272,50 +272,50 @@ namespace AppsRemesas
             new Meses( 216,"Diciember",136.7,18)
         };
 
-        public static string conversion_millones(double cantidad_remesa)
+        public static string conversion_Millones(double cantidad_remesa)
         {
-            return formato_numero(cantidad_remesa * 1000000);
+            return formato_Numero(cantidad_remesa * 1000000);
         }
 
-        public static string formato_numero(double cantidad_remesa)
+        public static string formato_Numero(double cantidad_Remesa)
         {
-            string cadena_cantidad_remesa = cantidad_remesa.ToString(), formato_millone = "";
+            string cadena_Cantidad_Remesa = cantidad_Remesa.ToString(), formato_Millone = "";
             int posicion = 0;
 
-            for (int i = cadena_cantidad_remesa.Length - 1; i >= 0; i--)
+            for (int i = cadena_Cantidad_Remesa.Length - 1; i >= 0; i--)
             {
                 if (posicion < 3)
                 {
-                    formato_millone += cadena_cantidad_remesa[i];
+                    formato_Millone += cadena_Cantidad_Remesa[i];
                     posicion++;
                 }
                 else
                 {
                     posicion = 1;
-                    formato_millone += " ";
-                    formato_millone += cadena_cantidad_remesa[i];
+                    formato_Millone += " ";
+                    formato_Millone += cadena_Cantidad_Remesa[i];
                 }
             }
 
-            return cadena_espejo(formato_millone);
+            return cadena_Espejo(formato_Millone);
         }
 
-        private static string cadena_espejo(string cantidad_remesa)
+        private static string cadena_Espejo(string cantidad_Remesa)
         {
-            string cantidad_remesa_espejo = "";
+            string espejo_Cantidad_Remesa = "";
 
-            for (int i = cantidad_remesa.Length - 1; i >= 0; i--)
+            for (int i = cantidad_Remesa.Length - 1; i >= 0; i--)
             {
-                cantidad_remesa_espejo += cantidad_remesa[i];
+                espejo_Cantidad_Remesa += cantidad_Remesa[i];
             }
 
-            return cantidad_remesa_espejo;
+            return espejo_Cantidad_Remesa;
         }
 
         public static int ranking(List<Meses> meses, int id_meses)
         {
             int posicion = 0, iterador = 0;
-            meses = meses.OrderByDescending(x=>x.Cantidad_remesa).ToList();
+            meses = meses.OrderByDescending(x=>x.Cantidad_Remesa).ToList();
 
             foreach (Meses item in meses)
             {
@@ -327,45 +327,44 @@ namespace AppsRemesas
                 }
                 else
                     iterador++;
-
             }
             return posicion;
         }
     }
 
-    public class year
+    public class Year
     {
         int id;
-        int years;
+        int year;
 
-        public year(int id, int years)
+        public Year(int id, int years)
         {
             this.Id = id;
             this.Years = years;
         }
 
         public int Id { get => id; set => id = value; }
-        public int Years { get => years; set => years = value; }
+        public int Years { get => year; set => year = value; }
     }
 
     public class Meses
     {
         int id;
         string nombre;
-        double cantidad_remesa;
-        int id_year;
+        double cantidad_Remesa;
+        int id_Year;
 
-        public Meses(int id, string nombre, double cantidad_remesa, int id_year)
+        public Meses(int id, string nombre, double cantidad_Remesa, int id_Year)
         {
             this.Id = id;
             this.Nombre = nombre;
-            this.Cantidad_remesa = cantidad_remesa;
-            this.Id_year = id_year;
+            this.Cantidad_Remesa = cantidad_Remesa;
+            this.Id_Year = id_Year;
         }
 
         public int Id { get => id; set => id = value; }
         public string Nombre { get => nombre; set => nombre = value; }
-        public double Cantidad_remesa { get => cantidad_remesa; set => cantidad_remesa = value; }
-        public int Id_year { get => id_year; set => id_year = value; }
+        public double Cantidad_Remesa { get => cantidad_Remesa; set => cantidad_Remesa = value; }
+        public int Id_Year { get => id_Year; set => id_Year = value; }
     }
 }

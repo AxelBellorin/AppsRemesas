@@ -26,10 +26,10 @@ public final class R {
 		public static final int browser_actions_divider_color = 0x7f050028;
 		public static final int browser_actions_text_color = 0x7f050029;
 		public static final int browser_actions_title_color = 0x7f05002a;
-		public static final int notification_action_color_filter = 0x7f050072;
-		public static final int notification_icon_bg_color = 0x7f050073;
-		public static final int ripple_material_light = 0x7f05007d;
-		public static final int secondary_text_default_material_light = 0x7f05007f;
+		public static final int notification_action_color_filter = 0x7f050076;
+		public static final int notification_icon_bg_color = 0x7f050077;
+		public static final int ripple_material_light = 0x7f050081;
+		public static final int secondary_text_default_material_light = 0x7f050083;
 	}
 	public static final class dimen {
 		public static final int browser_actions_context_menu_max_width = 0x7f06004e;
@@ -152,12 +152,12 @@ public final class R {
 		public static final int browser_actions_context_menu_page = 0x7f0b001d;
 		public static final int browser_actions_context_menu_row = 0x7f0b001e;
 		public static final int custom_dialog = 0x7f0b001f;
-		public static final int notification_action = 0x7f0b0032;
-		public static final int notification_action_tombstone = 0x7f0b0033;
-		public static final int notification_template_custom_big = 0x7f0b0034;
-		public static final int notification_template_icon_group = 0x7f0b0035;
-		public static final int notification_template_part_chronometer = 0x7f0b0036;
-		public static final int notification_template_part_time = 0x7f0b0037;
+		public static final int notification_action = 0x7f0b0033;
+		public static final int notification_action_tombstone = 0x7f0b0034;
+		public static final int notification_template_custom_big = 0x7f0b0035;
+		public static final int notification_template_icon_group = 0x7f0b0036;
+		public static final int notification_template_part_chronometer = 0x7f0b0037;
+		public static final int notification_template_part_time = 0x7f0b0038;
 	}
 	public static final class string {
 		public static final int copy_toast_msg = 0x7f0d0021;

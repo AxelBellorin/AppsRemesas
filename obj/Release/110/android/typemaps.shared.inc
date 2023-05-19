@@ -67,30 +67,30 @@
 	.section	.rodata.map_aname.11,"aMS",@progbits,1
 	.type	.L.map_aname.11, @object
 .L.map_aname.11:
-	.asciz	"AppsRemesas"
-	.size	.L.map_aname.11, 12
+	.asciz	"Xamarin.AndroidX.AppCompat"
+	.size	.L.map_aname.11, 27
 
 	.section	.rodata.map_aname.12,"aMS",@progbits,1
 	.type	.L.map_aname.12, @object
 .L.map_aname.12:
-	.asciz	"Xamarin.AndroidX.AppCompat"
-	.size	.L.map_aname.12, 27
+	.asciz	"Xamarin.Google.Guava.ListenableFuture"
+	.size	.L.map_aname.12, 38
 
 	.section	.rodata.map_aname.13,"aMS",@progbits,1
 	.type	.L.map_aname.13, @object
 .L.map_aname.13:
-	.asciz	"Xamarin.Google.Guava.ListenableFuture"
-	.size	.L.map_aname.13, 38
+	.asciz	"Xamarin.Google.Android.Material"
+	.size	.L.map_aname.13, 32
 
 	.section	.rodata.map_aname.14,"aMS",@progbits,1
 	.type	.L.map_aname.14, @object
 .L.map_aname.14:
-	.asciz	"Xamarin.Google.Android.Material"
-	.size	.L.map_aname.14, 32
+	.asciz	"Xamarin.AndroidX.Lifecycle.ViewModel"
+	.size	.L.map_aname.14, 37
 
 	.section	.rodata.map_aname.15,"aMS",@progbits,1
 	.type	.L.map_aname.15, @object
 .L.map_aname.15:
-	.asciz	"Xamarin.AndroidX.Lifecycle.ViewModel"
-	.size	.L.map_aname.15, 37
+	.asciz	"AppsRemesas"
+	.size	.L.map_aname.15, 12
 

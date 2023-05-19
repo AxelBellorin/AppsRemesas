@@ -17,23 +17,23 @@ namespace AppsRemesas.Activities
     {
         TextView year;
         TextView total;
-        ListView lv_meses;
+        ListView lv_Meses;
 
         protected override void OnCreate(Bundle savedInstanceState){
             base.OnCreate(savedInstanceState);
 
             // Create your application here
-            SetContentView(Resource.Layout.meses);
+            SetContentView(Resource.Layout.Meses);
 
             int id_year = Intent.GetIntExtra("id_year", 0);
 
             year = FindViewById<TextView>(Resource.Id.value_year);
             total = FindViewById<TextView>(Resource.Id.value_total);
-            lv_meses = FindViewById<ListView>(Resource.Id.lv_meses);
+            lv_Meses = FindViewById<ListView>(Resource.Id.lv_meses);
 
             year.Text = Global.year.Where(year => year.Id == id_year).Single().Years.ToString();
-            total.Text = (Global.conversion_millones(Global.mes.Where(year => year.Id_year == id_year).Sum(x => x.Cantidad_remesa)) + " $");
-            lv_meses.Adapter = new Adaptador_Fila_Meses(Global.mes.Where(x => x.Id_year == id_year).ToList(), this);
+            total.Text = (Global.conversion_Millones(Global.mes.Where(year => year.Id_Year == id_year).Sum(x => x.Cantidad_Remesa)) + " $");
+            lv_Meses.Adapter = new Adaptador_Fila_Meses(Global.mes.Where(x => x.Id_Year == id_year).ToList(), this);
 
         }
     }

@@ -11,7 +11,7 @@ namespace AppsRemesas
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
-        ListView lv_year;
+        ListView lv_Year;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -19,21 +19,21 @@ namespace AppsRemesas
 
 
             // Set our view from the "main" layout resource
-            SetContentView(Resource.Layout.activity_main);
+            SetContentView(Resource.Layout.Activity_Main);
 
-            lv_year = FindViewById<ListView>(Resource.Id.lv_year);
-            lv_year.Adapter = new Adapter_Year(this, AppsRemesas.Global.year);
-            lv_year.ItemClick += Lv_year_ItemClick;
+            lv_Year = FindViewById<ListView>(Resource.Id.lv_year);
+            lv_Year.Adapter = new Adapter_Year(this, AppsRemesas.Global.year);
+            lv_Year.ItemClick += lv_Year_ItemClick;
         }
 
-        private void Lv_year_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
+        private void lv_Year_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
         {
-            Intent i = new Intent(this, typeof(Activity_Meses));
+            Intent intent = new Intent(this, typeof(Activity_Meses));
 
             int id_year = Global.year[e.Position].Id;
 
-            i.PutExtra("id_year", id_year);
-            StartActivity(i);
+            intent.PutExtra("id_year", id_year);
+            StartActivity(intent);
         }
 
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)

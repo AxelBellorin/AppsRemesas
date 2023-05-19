@@ -8,7 +8,7 @@
 .L.compressed_assembly_descriptors:
 	/* 0: AppsRemesas.dll */
 	/* uncompressed_file_size */
-	.word	142848
+	.word	143360
 	/* loaded */
 	.byte	0
 	/* data */
@@ -152,7 +152,7 @@
 
 	/* 16: Xamarin.AndroidX.Lifecycle.ViewModel.dll */
 	/* uncompressed_file_size */
-	.word	16896
+	.word	16384
 	/* loaded */
 	.byte	0
 	/* data */
