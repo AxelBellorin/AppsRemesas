@@ -12,6 +12,7 @@ external-path;C:\Users\axelb\OneDrive\Escritorio\AppsRemesas\obj\Debug\110\lp\38
 foreground;obj\Debug\110\res\mipmap-anydpi-v26\ic_launcher.xml
 foreground;obj\Debug\110\res\mipmap-anydpi-v26\ic_launcher_round.xml
 GridLayout;obj\Debug\110\res\layout\meses.xml
+ImageView;obj\Debug\110\res\layout\fila_year.xml
 item;obj\Debug\110\res\values\styles.xml
 item;obj\Debug\110\res\values-en-rus\styles.xml
 LinearLayout;obj\Debug\110\res\layout\activity_main.xml
@@ -37,4 +38,5 @@ style;obj\Debug\110\res\values\styles.xml
 style;obj\Debug\110\res\values-en-rus\styles.xml
 TextView;obj\Debug\110\res\layout\activity_main.xml
 TextView;obj\Debug\110\res\layout\fila_meses.xml
+TextView;obj\Debug\110\res\layout\fila_year.xml
 TextView;obj\Debug\110\res\layout\meses.xml

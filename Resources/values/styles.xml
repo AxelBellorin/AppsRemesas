@@ -14,8 +14,10 @@
         <item name="android:textAlignment">center</item>
         <item name="android:padding">10dp</item>
         <item name="android:textSize">25dp</item>
-        <item name="android:background">@android:color/holo_green_light</item>
-       <item name="android:textStyle">bold</item>
+        <item name="android:padding">25dp</item>    
+        <item name="android:background">@color/color_4</item>
+        <item name="android:textColor">@android:color/white</item>
+      <item name="android:textStyle">bold</item>
     </style>
 
 </resources>

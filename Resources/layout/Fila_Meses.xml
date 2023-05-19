@@ -11,14 +11,14 @@
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout1">
         <TextView
-            android:text=""
+            android:text="Mes"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/mes" />
         <TextView
-            android:text=""
+            android:text="Julio"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textStyle="bold"
             android:layout_width="wrap_content"
@@ -36,7 +36,7 @@
         android:layout_alignParentRight="true"
         android:id="@+id/posicion" />
     <TextView
-        android:text=""
+        android:text="4"
         android:textAppearance="?android:attr/textAppearanceSmall"        
         android:layout_below="@+id/posicion"
         android:paddingRight="50dp"

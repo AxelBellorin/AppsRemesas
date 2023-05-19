@@ -274,7 +274,7 @@ namespace AppsRemesas
 
         public static string conversion_Millones(double cantidad_remesa)
         {
-            return formato_Numero(cantidad_remesa * 1000000);
+            return formato_Numero(Math.Round(cantidad_remesa * 1000000));
         }
 
         public static string formato_Numero(double cantidad_Remesa)

@@ -71,7 +71,6 @@
   <ItemGroup>
     <Compile Include="Activities\Activity_Meses.cs" />
     <Compile Include="Adapter\Adapter_Fila_Meses.cs" />
-    <Compile Include="Adapter\Adaptador_Meses.cs" />
     <Compile Include="Adapter\Adapter_Year.cs" />
     <Compile Include="Global.cs" />
     <Compile Include="MainActivity.cs" />
@@ -109,9 +108,7 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_round.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\drawable\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.2.0.5" />
     <PackageReference Include="Xamarin.Google.Android.Material" Version="1.0.0.1" />
@@ -160,6 +157,9 @@
     <AndroidResourceAnalysisConfig Include="Resources\layout\Prueba.xml">
       <SubType>Designer</SubType>
     </AndroidResourceAnalysisConfig>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\promedio.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

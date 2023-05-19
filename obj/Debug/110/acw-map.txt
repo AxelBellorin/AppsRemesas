@@ -1,6 +1,3 @@
-AppsRemesas.Adaptador_Meses, AppsRemesas;crc64d090ccfc93fff5ee.Adaptador_Meses
-AppsRemesas.Adaptador_Meses;crc64d090ccfc93fff5ee.Adaptador_Meses
-appsremesas.Adaptador_Meses;crc64d090ccfc93fff5ee.Adaptador_Meses
 AppsRemesas.Adapter_Year, AppsRemesas;crc64d090ccfc93fff5ee.Adapter_Year
 AppsRemesas.Adapter_Year;crc64d090ccfc93fff5ee.Adapter_Year
 appsremesas.Adapter_Year;crc64d090ccfc93fff5ee.Adapter_Year

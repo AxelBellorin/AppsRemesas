@@ -22,7 +22,7 @@ namespace AppsRemesas
             SetContentView(Resource.Layout.Activity_Main);
 
             lv_Year = FindViewById<ListView>(Resource.Id.lv_year);
-            lv_Year.Adapter = new Adapter_Year(this, AppsRemesas.Global.year);
+            lv_Year.Adapter = new Adapter_Year(this, Global.year, Global.mes);
             lv_Year.ItemClick += lv_Year_ItemClick;
         }
 
