@@ -12,4 +12,8 @@
 
     <!--Layout adaptador de fila-->
     <string name="posicion">Posición</string>
+
+    <!--Layout detalle mes-->
+    <string name="cantidad_remesas">CANTIDAD: </string>
+    <string name="ranking">RANKING: </string>
 </resources>

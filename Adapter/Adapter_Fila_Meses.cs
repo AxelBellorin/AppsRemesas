@@ -40,10 +40,9 @@ namespace AppsRemesas.Adapter
             if (view == null)
                 view = context.LayoutInflater.Inflate(Resource.Layout.Fila_Meses, null);
 
-            view.FindViewById<TextView>(Resource.Id.mes).Text = item.Nombre;
-            view.FindViewById<TextView>(Resource.Id.cantidad).Text = Global.conversion_Millones(item.Cantidad_Remesa) + " $";
-            view.FindViewById<TextView>(Resource.Id.value_posicion).Text = Global.ranking(meses, item.Id).ToString();
-
+            view.FindViewById<TextView>(Resource.Id.tv_mes).Text = item.Nombre;
+            //view.FindViewById<TextView>(Resource.Id.cantidad).Text = Global.conversion_Millones(item.Cantidad_Remesa) + " $";
+            
             return view;
         }
     }

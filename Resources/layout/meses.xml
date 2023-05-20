@@ -3,68 +3,37 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
-    <GridLayout
+    <LinearLayout
+        android:orientation="vertical"
         android:minWidth="25px"
         android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:columnCount="4"
-        android:id="@+id/gridLayout1">
+        android:id="@+id/linearLayout1">
         <TextView
-        android:text="@string/meses"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        style="@style/style_encabezado"
-        android:layout_columnSpan="4"
-        android:textSize="25dp"
-        android:minWidth="25px"
-        android:minHeight="25px"
-        android:id="@+id/textView1" />
+            android:text="@string/meses"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            style="@style/style_encabezado"
+            android:textSize="30dp"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/tv_remesas" />
+        <TextView
+            android:text="Año: 2023"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textColor="@android:color/white"
+            android:background="@color/color_3"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_year_month" /> 
         
-        <TextView
-            android:text="@string/year"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textSize="20dp"  
-            android:layout_marginLeft="10dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/tv_year" />
-        <TextView
-            android:text=""
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textSize="20dp"        
-            android:layout_marginLeft="10dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/value_year" />
-        <TextView
-            android:text="@string/total"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:layout_toRightOf="@+id/value_year"
-            android:textSize="20dp"
-            android:layout_marginLeft="23dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/tv_total" /> 
-        <TextView
-            android:text=""
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textSize="20dp"
-            android:layout_toRightOf="@+id/tv_total"
-            android:layout_marginLeft="10dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/value_total" />
-        </GridLayout>
-    
-
-
+        </LinearLayout>
     <ListView
         android:minWidth="25px"
         android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/lv_meses"/>
-
-
 </LinearLayout>
